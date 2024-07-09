@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Action Figure",
+        "price": 218,
+        "labels": [
+            "Puzzle",
+            "Battery Powered"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "oRlrAr"
+    },
+    {
+        "name": "Lego Set",
+        "price": 289,
+        "labels": [
+            "Puzzle",
+            "Outdoor",
+            "Doll"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "BjU8SZ"
+    },
+    {
+        "name": "Remote Control Car",
+        "price": 126,
+        "labels": [
+            "Baby",
+            "Doll",
+            "Puzzle"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "ah2kZi"
+    },
+    {
+        "name": "Barbie Doll",
+        "price": 164,
+        "labels": [
+            "Doll",
+            "Battery Powered",
+            "Puzzle"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "fbwscA"
+    },
+    {
+        "name": "Puzzle",
+        "price": 153,
+        "labels": [
+            "Battery Powered",
+            "Box game",
+            "Art"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "PSidhy"
+    },
+    {
+        "name": "Toy Train",
+        "price": 159,
+        "labels": [
+            "Art",
+            "Outdoor"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "ae0omH"
+    },
+    {
+        "name": "Rubik's Cube",
+        "price": 227,
+        "labels": [
+            "Art",
+            "Battery Powered",
+            "Baby"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "m9gfdN"
+    },
+    {
+        "name": "Nerf Gun",
+        "price": 236,
+        "labels": [
+            "Box game",
+            "Baby"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "ZwvIci"
+    },
+    {
+        "name": "Stuffed Animal",
+        "price": 239,
+        "labels": [
+            "Baby",
+            "Outdoor"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "FOAag0"
+    },
+    {
+        "name": "Play-Doh",
+        "price": 260,
+        "labels": [
+            "On wheels",
+            "Battery Powered",
+            "Art"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "ygJGI5"
+    },
+    {
+        "name": "Yo-Yo",
+        "price": 245,
+        "labels": [
+            "Box game",
+            "Puzzle"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "riN8YY"
+    },
+    {
+        "name": "Slinky",
+        "price": 188,
+        "labels": [
+            "Outdoor",
+            "Baby",
+            "Doll"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "hV5art"
+    },
+    {
+        "name": "Kite",
+        "price": 172,
+        "labels": [
+            "Outdoor",
+            "Doll",
+            "On wheels"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "UTu5cB"
+    },
+    {
+        "name": "Hot Wheels Car",
+        "price": 71,
+        "labels": [
+            "Battery Powered",
+            "Doll",
+            "Baby"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "QxT3bk"
+    },
+    {
+        "name": "Dinosaur Toy",
+        "price": 185,
+        "labels": [
+            "Puzzle",
+            "Battery Powered",
+            "Box game"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "i8eDJ6"
+    },
+    {
+        "name": "Building Blocks",
+        "price": 43,
+        "labels": [
+            "Baby",
+            "Outdoor"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "NHMrLz"
+    },
+    {
+        "name": "Marbles",
+        "price": 259,
+        "labels": [
+            "On wheels",
+            "Outdoor",
+            "Box game"
+        ],
+        "inStock": true,
+        "createdAt": 1720544407232,
+        "_id": "eFmDNq"
+    },
+    {
+        "name": "Toy Robot",
+        "price": 166,
+        "labels": [
+            "On wheels",
+            "Art"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "pKOUih"
+    },
+    {
+        "name": "Frisbee",
+        "price": 113,
+        "labels": [
+            "Doll",
+            "Baby"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "1duj3j"
+    }
+]
