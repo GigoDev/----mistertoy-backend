@@ -12,14 +12,14 @@ export const toyService = {
 
 const toys = utilService.readJsonFile('data/toy.json')
 
-function query(filterBy = { txt: '' }) {
+function query(filterBy = { name: '' }) {
 
     // Filter:
 
      let toysToReturn = toys
 
-    if (filterBy.txt) {
-        const regExp = new RegExp(filterBy.txt, 'i')
+    if (filterBy.name) {
+        const regExp = new RegExp(filterBy.name, 'i')
         toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
     }
 
