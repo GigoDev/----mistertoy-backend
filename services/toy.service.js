@@ -15,17 +15,22 @@ const toys = utilService.readJsonFile('data/toy.json')
 function query(filterBy = { name: '' }) {
 
     // Filter:
-
-     let toysToReturn = toys
-
+    let toysToReturn = toys
+    console.log(filterBy)
     if (filterBy.name) {
         const regExp = new RegExp(filterBy.name, 'i')
         toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
     }
 
-    if (filterBy !== 'all') {
-
+    if (filterBy.stock) {
         toysToReturn = toysToReturn.filter(toy => filterBy.stock === 'inStock' ? toy.inStock : !toy.inStock)
+    }
+
+    if (filterBy.labels && filterBy.labels.length) {
+        toysToReturn = toysToReturn.filter(toy => 
+            
+            filterBy.labels.every(label => toy.labels.includes(label))
+        )
     }
 
     return Promise.resolve(toysToReturn)

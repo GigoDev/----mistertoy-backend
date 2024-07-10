@@ -29,13 +29,14 @@ app.use(express.json())
 
 // Toy LIST
 app.get('/api/toy', (req, res) => {
-    console.log('get list')
     const filterBy = {
         name: req.query.name || '',
         stock: req.query.stock || '',
+        labels: req.query.labels || [],
     }
     toyService.query(filterBy)
         .then((toys) => {
+            console.log(toys)
             res.send(toys)
         })
         .catch((err) => {
