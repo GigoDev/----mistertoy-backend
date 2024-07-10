@@ -16,7 +16,7 @@ function query(filterBy = { name: '' }) {
 
     // Filter:
     let toysToReturn = toys
-    console.log(filterBy)
+
     if (filterBy.name) {
         const regExp = new RegExp(filterBy.name, 'i')
         toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
@@ -28,7 +28,7 @@ function query(filterBy = { name: '' }) {
 
     if (filterBy.labels && filterBy.labels.length) {
         toysToReturn = toysToReturn.filter(toy => 
-            
+
             filterBy.labels.every(label => toy.labels.includes(label))
         )
     }
