@@ -22,7 +22,7 @@ function query(filterBy = { name: '' }) {
         toysToReturn = toysToReturn.filter(toy => regExp.test(toy.name))
     }
 
-    if (filterBy.stock) {
+    if (filterBy.stock !== 'all') {
         toysToReturn = toysToReturn.filter(toy => filterBy.stock === 'inStock' ? toy.inStock : !toy.inStock)
     }
 
