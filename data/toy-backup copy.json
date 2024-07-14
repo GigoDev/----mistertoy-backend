@@ -1,7 +1,7 @@
 [
     {
         "name": "Action Figure",
-        "price": 2180,
+        "price": 218,
         "labels": [
             "Puzzle",
             "Battery Powered"
@@ -9,6 +9,18 @@
         "inStock": true,
         "createdAt": 1720544407232,
         "_id": "oRlrAr"
+    },
+    {
+        "name": "Teddy Bear",
+        "price": 169,
+        "labels": [
+            "Art",
+            "Outdoor",
+            "Battery Powered"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "w91l1R"
     },
     {
         "name": "Lego Set",
@@ -33,6 +45,30 @@
         "inStock": true,
         "createdAt": 1720544407232,
         "_id": "ah2kZi"
+    },
+    {
+        "name": "Barbie Doll",
+        "price": 164,
+        "labels": [
+            "Doll",
+            "Battery Powered",
+            "Puzzle"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "fbwscA"
+    },
+    {
+        "name": "Puzzle",
+        "price": 153,
+        "labels": [
+            "Battery Powered",
+            "Box game",
+            "Art"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "PSidhy"
     },
     {
         "name": "Toy Train",
@@ -80,6 +116,18 @@
         "_id": "FOAag0"
     },
     {
+        "name": "Play-Doh",
+        "price": 260,
+        "labels": [
+            "On wheels",
+            "Battery Powered",
+            "Art"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "ygJGI5"
+    },
+    {
         "name": "Yo-Yo",
         "price": 245,
         "labels": [
@@ -101,6 +149,18 @@
         "inStock": false,
         "createdAt": 1720544407232,
         "_id": "hV5art"
+    },
+    {
+        "name": "Kite",
+        "price": 172,
+        "labels": [
+            "Outdoor",
+            "Doll",
+            "On wheels"
+        ],
+        "inStock": false,
+        "createdAt": 1720544407232,
+        "_id": "UTu5cB"
     },
     {
         "name": "Hot Wheels Car",
@@ -170,11 +230,5 @@
         "inStock": false,
         "createdAt": 1720544407232,
         "_id": "1duj3j"
-    },
-    {
-        "name": "test",
-        "labels": [],
-        "price": 80,
-        "_id": "q9J9M"
     }
 ]
